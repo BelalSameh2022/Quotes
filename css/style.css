@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.txt {
+    max-width: 85%;
+    margin: 0.4rem auto;
+}
+
+@media only screen and (min-width: 1200px) {
+    .txt {
+        max-width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .txt {
+        max-width: 65%;
+    }
+}
+
+.img {
+    width: 120px;
+}
+
+.py-6 {
+    padding-top: 5rem!important;
+    padding-bottom: 5rem!important;
+}
